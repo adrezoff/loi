@@ -2,6 +2,8 @@
 
 Единый собранный PDF файл —`loi.pdf`, его можно создать/обновить при помощи скрипта `make_pdf.py`, **отдельным Pull Request** в main.
 
+Учебник по которому прочитан курс — [languages_grammars_recognizers.pdf](languages_grammars_recognizers.pdf)
+
 PS: `DejaVuLGCSans.ttf` — шрифт для автооглавления.
 
 ## Как залить изменения?
