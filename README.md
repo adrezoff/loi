@@ -2,6 +2,13 @@
 
 Единый собранный PDF файл —`loi.pdf`, его можно создать/обновить при помощи скрипта `make_pdf.py`, **отдельным Pull Request** в main.
 
+## Ошибки путей при клонировании:
+Если при `git clone` проекта, scv и система будет ругаться на слишком длинные пути, то клонируйте с флагом `core.longpaths`:
+
+```bush
+git clone --config core.longpaths=true https://github.com/adrezoff/loi.git
+```
+
 Учебник по которому прочитан курс — [languages_grammars_recognizers.pdf](languages_grammars_recognizers.pdf)
 
 PS: `DejaVuLGCSans.ttf` — шрифт для автооглавления.
